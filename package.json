@@ -1,11 +1,13 @@
 {
   "name": "stencil-vanilla-extract-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Stencil plugin that allows to use vanilla-extract in your components.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublishOnly": "npm run build",
     "prebuild": "rimraf ./dist",
