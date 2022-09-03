@@ -1,0 +1,6 @@
+{
+  "publishConfig": {
+    "access": "public"
+  },
+  "yarn": false
+}
