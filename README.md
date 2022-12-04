@@ -37,7 +37,7 @@ import { button } from './button.css.ts';
 
 @Component({
   tag: 'demo-button',
-  styleUrls: ['button.css'],
+  styleUrls: ['button.css.ts'],
 })
 export class Button {
   render() {
@@ -45,6 +45,8 @@ export class Button {
   }
 }
 ```
+
+⚠️ Warning: Please make sure to reference to your stylesheet using `'button.css.ts'` for the `styleUrls` property, not just `'button.css'`. This will help prevent some potential bugs (see issue https://github.com/arthur-fontaine/stencil-vanilla-extract-plugin/issues/1 for more details).
 
 ## Config Options
 
